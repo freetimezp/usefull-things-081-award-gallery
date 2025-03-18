@@ -9,3 +9,160 @@
 a {
     text-decoration: none;
 }
+
+body {
+    background: #fff;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    cursor: crosshair;
+}
+
+#gallery {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.block {
+    position: absolute;
+    width: 200px;
+    height: 250px;
+    z-index: 1;
+}
+
+.block:hover {
+    z-index: 2;
+}
+
+.block:nth-child(1) {
+    top: 5%;
+    left: 10%;
+    background: url(../images/img-1.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.block:nth-child(2) {
+    top: 10%;
+    left: 34%;
+    background: url(../images/img-2.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.block:nth-child(3) {
+    top: 0%;
+    right: 44%;
+    background: url(../images/img-3.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.block:nth-child(4) {
+    top: 22%;
+    right: 34%;
+    background: url(../images/img-4.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.block:nth-child(5) {
+    top: 2%;
+    right: 14%;
+    background: url(../images/img-5.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+
+.block:nth-child(6) {
+    top: 8%;
+    right: 4%;
+    background: url(../images/img-6.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+
+.block:nth-child(7) {
+    top: 38%;
+    right: 10%;
+    background: url(../images/img-7.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.block:nth-child(8) {
+    top: 30%;
+    right: 20%;
+    background: url(../images/img-8.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.block:nth-child(9) {
+    top: 35%;
+    right: 30%;
+    background: url(../images/img-9.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.block:nth-child(10) {
+    top: 50%;
+    right: 40%;
+    background: url(../images/img-10.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.block:nth-child(11) {
+    top: 40%;
+    left: 47%;
+    background: url(../images/img-11.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.block:nth-child(12) {
+    top: 35%;
+    left: 27%;
+    background: url(../images/img-12.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.block:nth-child(13) {
+    top: 42%;
+    left: 17%;
+    background: url(../images/img-13.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.block:nth-child(14) {
+    top: 45%;
+    left: 2%;
+    background: url(../images/img-14.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.block:nth-child(15) {
+    bottom: 8%;
+    left: 14%;
+    background: url(../images/img-15.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.block:nth-child(16) {
+    bottom: 4%;
+    left: 20%;
+    background: url(../images/img-16.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.block:nth-child(17) {
+    bottom: 0%;
+    right: 50%;
+    background: url(../images/img-17.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.block:nth-child(18) {
+    bottom: 0%;
+    right: 35%;
+    background: url(../images/img-18.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.block:nth-child(19) {
+    bottom: 5%;
+    right: 15%;
+    background: url(../images/img-19.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.block:nth-child(20) {
+    bottom: 3%;
+    right: 3%;
+    background: url(../images/img-20.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
